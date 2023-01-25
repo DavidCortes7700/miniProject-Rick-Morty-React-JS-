@@ -16,6 +16,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className="title">Rick & Morty</h1>
+        <p>
+          <span>👨🏻‍💻 Created by: Ing. David Cortes. 👨🏻‍💻</span>
+        </p>
         {characters ? (
           <Characters characters={characters} setCharacters={setCharacters} />
         ) : (
@@ -24,6 +27,9 @@ function App() {
             <button onClick={reqApi} className="btn-search">
               Buscar Personajes
             </button>
+            <p>
+              <span>Proyecto educativo en React JS.</span>
+            </p>
           </>
         )}
       </header>
